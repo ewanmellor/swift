@@ -38,7 +38,7 @@ public protocol StringProtocol
   
 #if _runtime(_ObjC)
   func hasPrefix(_ prefix: String) -> Bool
-  func hasSuffix(_ prefix: String) -> Bool
+  func hasSuffix(_ suffix: String) -> Bool
 #endif
 
   func lowercased() -> String
